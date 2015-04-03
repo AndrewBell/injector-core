@@ -7,7 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InjectorCoreApplication implements CommandLineRunner{
+public class InjectorCoreApplication{
 
     @Autowired
     InjectorService injectorService;
@@ -16,8 +16,4 @@ public class InjectorCoreApplication implements CommandLineRunner{
         SpringApplication.run(InjectorCoreApplication.class, args);
     }
 
-    @Override
-    public void run(String... strings) throws Exception {
-        System.out.println("Hello " + injectorService.getGreeting());
-    }
 }
