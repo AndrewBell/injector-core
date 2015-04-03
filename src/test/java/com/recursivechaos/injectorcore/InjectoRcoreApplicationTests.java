@@ -1,4 +1,4 @@
-package injectorcore;
+package com.recursivechaos.injectorcore;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

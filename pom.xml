@@ -20,7 +20,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<start-class>injectorcore.InjectorCoreApplication</start-class>
+		<start-class>com.recursivechaos.injectorcore.InjectorCoreApplication</start-class>
 		<java.version>1.8</java.version>
 	</properties>
 
