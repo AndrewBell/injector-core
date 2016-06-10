@@ -1,4 +1,4 @@
-package com.recursivechaos.test;
+package com.recursivechaos.injectorcore.service;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -8,7 +8,7 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
 @ComponentScan("com.recursivechaos.injectorcore")
-@PropertySource("classpath:resources/application.properties")
+@PropertySource("classpath:application.properties")
 public class TestApplicationContext {
 
     //To resolve ${} in @Value

@@ -1,4 +1,4 @@
-package com.recursivechaos.test;
+package com.recursivechaos.injectorcore.service;
 
 import com.recursivechaos.injectorcore.service.InjectorService;
 import org.junit.Test;
